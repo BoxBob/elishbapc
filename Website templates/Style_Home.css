@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: #05151b;
+    width: 100vw;
+    height: 384vw;
+    overflow-x: hidden;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    Left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 2.82vw 8vw;
+    z-index: 100000;
+
+}
+header.sticky {
+    padding: 0.28vw 7vw;
+    background: #05151b;
+    opacity: 99%;
+    z-index: 10000000; 
+}
+header .logo
+{
+    position: absolute;
+    padding-left: 4vw;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.14vw;
+    text-transform: uppercase;
+    letter-spacing: 0.134vw;
+    transition: 0.6s;
+    z-index: 10000000000000;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
+    margin: 0 0.985vw;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.134vw;
+    font-weight: 500;
+    transition: 0.6s;
+    z-index: 100000000000;
+    font-size: 1.047vw;
+}
+.banner1
+{
+    position: relative;
+    width: 100%;
+    height: 56.5vw;
+    background: url(epcplpic.png);
+    background-size: cover;
+}
+header.sticky .logo
+{
+    color: #fff;
+}
+header.sticky ul li a
+{
+    color: #e3ae7e;
+}
+.banner2
+{   
+    top: -22.6vw;
+    position: relative;
+    width: 100%;
+    height: 22.6vw;
+    background-image: linear-gradient(rgba(255,0,0,0),#05151b);
+    background-size: cover;
+    z-index:1000;
+}
+div
+{
+    position: inherit;
+    top: 0;
+    Left: 0;
+    
+    display: flex;
+    transition: 0.6s;
+    padding: 3.628vh 4.599vw;
+    z-index: 100000;
+}
+div ul li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+div .t1
+{   
+    padding-top: 2.82vw;
+    font-family: "Fustat";
+    top: -62.15vw;
+    position: relative;
+    font-weight: 900;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 4.75vw;
+    text-align: left;
+    letter-spacing: 0.0985vw;
+    transition: 0.6s;
+    justify-self: center;
+    text-shadow: -0.5px -0.5px 0 #4d4c4c, 0.5px -0.5px 0 #727272, -0.5px 0.5px 0 #6f6e6e, 0.5px 0.5px 0 #1E1E1E;
+
+}
+div .t2
+{   
+    font-family: "Fustat";
+    top: -118.64vw;
+    padding-left: 10vw;
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.4vw;
+    letter-spacing: -0.0485vw;
+    transition: 0.6s;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    z-index: 100000;
+}
+.banner3
+{
+    top: -16.95vw;
+    position: relative;
+    width: 33%;
+    margin: auto;
+    height: 41.98vw;
+    background-image: url(blue_leaf.jpg);
+    background-size: contain;
+    
+}
+.textbox1
+{
+    top: -72.32vw;
+    font-size: 1.1vw;
+    position: relative;
+    width: 50%;
+    padding-left: 15vw;
+    height: 50.85vw;
+    background-size: cover;   
+    color: #e3ae7e;
+    text-transform: uppercase;
+} 
+.textbox2
+{
+    top: -118.64vw;
+    font-size: 1.36vw;
+    text-align: justify;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 50.85vw;
+    color: #fff;
+    padding-left: 68%;   
+}
+.banner4
+{
+    position: relative;
+    height: 84.75vw;
+    width: 100%;
+    background-color: #efebe6;
+    top: -118.64vw;
+}
+.b4t1
+{
+    position: absolute;
+    font-size: 1.1vw;
+    width: 100%;
+    padding-top: 10.73vw;
+    padding-left: 15.5vw;
+    color: #e3ae7e;
+    text-transform: uppercase;
+}
+.b4t2
+{
+    position: absolute;
+    width: 100%;
+    padding-top: 15.25vw;
+    padding-left: 15vw;
+    color:#000;
+    font-size: 3.66vw;
+    font-family: "Fustat";
+    letter-spacing: -0.5px;
+    font-weight: 600;
+}
+.imgexcel{
+  position: absolute;
+  width: 37.449vw;
+  top: 36.72vw;
+  left: 1vw;
+}
+.b4t3
+{
+    position: absolute;
+    width: 30%;
+    margin-top: 28.25vw;
+    margin-left: 9vw;
+    background-color: #05151b;
+    height: 36.72vw;
+}
+.b4l1
+{
+    position: absolute;
+    width: 60%;
+    margin-top: 22.6vw;
+    margin-left: 35vw;
+    height: 36.72vw;
+}
+.b4l1t1
+{
+    font-size: 1.57vw;
+    position: absolute;
+    width: 60%;
+    margin-top: 29.94vw;
+    margin-left: 35vw;
+    height: 36.72vw;
+    font-weight: 500;
+}
+.b4l1t2
+{
+    font-size: 1.15vw;
+    position: absolute;
+    margin-top: 32.77vw;
+    margin-left: 35vw;
+    height: 36.72vw;
+    width: 37%;
+    text-align: justify;
+}
+
+
+.b4l2
+{
+    position: absolute;
+    width: 30%;
+    margin-top: 22.6vw;
+    margin-left: 64vw;
+    height: 36.72vw;
+}
+.b4l2t1
+{
+    font-size: 1.57vw;
+    position: absolute;
+    width: 30%;
+    margin-top: 29.94vw;
+    margin-left: 64vw;
+    height: 36.72vw;
+    font-weight: 500;
+}
+.b4l2t2
+{
+    font-size: 1.15vw;
+    position: absolute;
+    margin-top: 32.77vw;
+    margin-left: 64vw;
+    height: 36.72vw;
+    width: 36%;
+    text-align: justify;
+}
+
+
+
+.b4l3
+{
+    position: absolute;
+    width: 60%;
+    margin-top: 44.07vw;
+    margin-left: 35vw;
+    height: 36.72vw;
+}
+.b4l3t1
+{
+    font-size: 1.57vw;
+    position: absolute;
+    width: 60%;
+    margin-top: 50.85vw;
+    margin-left: 35vw;
+    height: 36.72vw;
+    font-weight: 500;
+}
+.b4l3t2
+{
+    font-size: 1.15vw;
+    position: absolute;
+    margin-top: 54.24vw;
+    margin-left: 35vw;
+    height: 36.72vw;
+    width: 37%;
+    text-align: justify;
+}
+
+
+
+.b4l4
+{
+    position: absolute;
+    width: 30%;
+    margin-top: 44.07vw;
+    margin-left: 64vw;
+    height: 36.72vw;
+}
+.b4l4t1
+{
+    font-size: 1.57vw;
+    position: absolute;
+    width: 30%;
+    margin-top:50.85vw;
+    margin-left: 64vw;
+    height: 36.72vw;
+    font-weight: 500;
+}
+.b4l4t2
+{
+    font-size: 1.15vw;
+    position: absolute;
+    margin-top: 54.24vw;
+    margin-left: 64vw;
+    height: 36.72vw;
+    width: 37%;
+    text-align: justify;
+}
+
+.services-hyper
+{
+    font-size: 1.57vw;
+    position: absolute;
+    width: 40%;
+    margin-top: 70.62vw;
+    margin-left: 65vw;
+    height: 36.72vw;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+#image-track {
+    margin-top: 280.24vw;
+    display: flex;
+    gap: 2.26vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(0%, -50%); 
+    user-select: none; /* -- Prevent image highlighting -- */
+  }
+  
+  
+  #image-track > .image {
+    width: 22.6vw;
+    height: 31.64vw;
+    object-fit: cover;
+    object-position: 60% center;
+  }
+
+  .port-t1
+  {
+      margin-top: 251.98vw;
+      font-size: 1.1vw;
+      position: absolute;
+      width: 50%;
+      padding-left: 15vw;
+      height: 50.85vw;
+      color: #e3ae7e;
+      text-transform: uppercase;
+  } 
+  .port-t2
+  {
+    position: absolute;
+    width: 100%;
+    margin-top: 254.24vw;
+    width: 50%;
+    padding-left: 14.7vw;
+    height: 50.85vw;
+    color:#fff;
+    font-size: 3.66vw;
+    font-family: "Fustat";
+    font-weight: 600;
+    letter-spacing: -0.0385vw;
+  }
+
+  .darg{
+    position: absolute;
+    margin-top: 299.44vw;
+    left: 43vw;
+    font-size:1.68vw;
+    color: #fff;
+  }
+
+
+  .footer
+  {
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    background-color:#efebe6;
+    height: 50.85vw;
+  }
+  .l4
+  {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+  }
+  .ftr2
+  {
+    position: absolute;
+    width: 100%;
+    color: #000;
+    height: 11.3vw;
+    margin-top: 8.47vw;
+    padding-left: 30vw;
+    padding-right: 30vw;
+  }
+  .ft1
+  {
+    text-align: center;
+    width: 100%;
+    font-size: 2.09vw; 
+    font-weight: 500;   
+  }
+  .ftr3
+  {
+    position: absolute;
+    width: 100%;
+    color: #000;
+    height: 11.3vw;
+    margin-top: 12.43vw;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    
+  }
+  .ft2
+  {
+    text-align: center;
+    width: 100%;
+    font-size: 1.57vw;    
+  }
+  .ftr4
+  {
+    position: absolute;
+    width: 100%;
+    height: 22.6vw;
+    top: 16.95vw;
+
+  }
+  .button
+  {
+    font-size: 1.31vw;
+    margin-left: 38.5vw;
+    padding: auto;
+    background-color: #05151b;
+    position: absolute;
+    width: 14%;
+    color: #fff;
+    height: 4.73vw;
+    cursor: pointer;
+    border-radius: 2.41vw;
+    transition: all 0.5s;
+  }
+  .button-a
+  {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .ftr5
+  {
+    position: absolute;
+    width: 100%;
+    height: 22.6vw;
+    top: 22.6vw;
+    align-items: center;
+    margin: auto;
+    margin-left: 1vw;
+  }
+  .fp1
+  {
+    padding-left: 15vw;
+    font-family: "playfair display";
+    font-size: 3.14vw;
+  }
+  .fp2
+  {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "playfair display";
+    font-size: 3.14vw;
+  }
+  .fp3
+  {
+    padding-right: 15vw;
+    font-family: "playfair display";
+    font-size: 3.14vw;
+  }
+  .ftr6
+  {
+    position: absolute;
+    width: 100%;
+    height: 22.6vw;
+    top: 28.25vw;
+    align-items: center;
+    margin: auto;
+  }
+  .fp4
+  {
+    padding-left: 13vw;
+    font-size: 1.57vw;
+  }
+  .fp5
+  {
+    margin: auto;
+    font-size: 1.57vw;
+    text-align: center;
+    margin-left: 10vw;
+  }
+  .fp6
+  {
+    padding-right: 7vw;
+    font-size: 1.57vw;
+  }

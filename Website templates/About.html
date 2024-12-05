@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style_About.css"> 
+    <meta name="viewport" content="user-scalable=0">
+    <link rel="icon" type="x-icon" href="Assets\Group4.ico" sizes="32x32">
+    <title>Elishba Pest Control</title>
+    <meta charset="UTF-8">
+</head>
+
+
+<body>
+    <header>
+        <img class src="Assets\Group4.ico" style="width:3.285vw;height:3.285vw;" >
+        <a href='#' class="logo">EPC</a>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="test2.html">Services</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <script src="About.js"></script>   
+    <div class="banner1">
+        <div class="ourmission">
+            <div class="text1" ><p class="animate-on-scroll">About Us</p></div>
+            <div class="text2box">
+            <p class="text2">
+                Elishba Pest Control Private Limited(EPCPL) is a leading Pest Control company with over 20 years of expertise in the Pest Control Industry. We deliver our services to major Hotel Brands and Restaurants, in and around Indore, as well as to numerous Government and Private commercial sectors. Founded by Mr. Thomson Kuriakose, the company has evolved under his leadership into a industry leader and has become<b> A Trusted Name In The Industry</b>.
+            </p>
+            </div>
+            <div class="imgbox">
+                <img src="Assets\time-left_143355.png"  class="img1">
+                <p class="imgtext1">20+ years of expertise</p>
+                <img src="Assets\graph_2592355.png"  class="img2">
+                <p class="imgtext2">100+ permanent clients</p>
+                <img src="Assets\teamwork_1305881.png"  class="img3">
+                <p class="imgtext3">50+ employees</p>
+            </div>
+        </div>
+        <div class="subBanner">
+        </div>
+    </div>
+    <div class="banner2">
+        <div class="heading2"><p class="">Our Objective</p></div>
+        <div class="text4box">
+            <p class="text4">
+                At EPC we aim to deliver utmost customer satisfaction, contentment and peace of mind. In our pursuit of customer happiness, we proudly leverage our well-experienced staff and modern insecticides, which positions EPC as an industry leader. We at EPC believe quality over quantity and hence are committed to use insecticides with high efficacy the likes which are manufactered by ENVU (Bayer) which at the same time are odour less and environment friendly.
+            </p>
+        </div>
+    </div>
+
+    <div class="banner3">
+        <div class="heading2"><p class="">Certifications and Affiliations</p></div>
+        <div class="text4box">
+            <p class="text4">
+                EPCPL is a proud member of IPCA(Indian Pest Control Association) and PMA(Pest Management Association). EPC is a licensed Pest Control company as certified by the DY. Director of Agriculture, Indore. EPC also is ISO-2008 certified company.
+            </p>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 5</div>
+                  <img src="Assets\NEW PEST CONTROL LICENCE-images-0.jpg" style="width:50%;margin-left:25%;">
+                  <div class="text">Pest Control Licence</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 5</div>
+                  <img src="Assets\IPCA 24-25.jpg" style="width:100%">
+                  <div class="text">Member of IPCA</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 5</div>
+                  <img src="Assets\PMA CERTIFICATE.jpg" style="width:50%;margin-left:25%;">
+                  <div class="text">Member of PMA</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="Assets\ISO NEW.jpg" style="width:50%;margin-left:25%;">
+                    <div class="text">ISO certification</div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">5/ 5</div>
+                    <img src="Assets\MSME-images-0.jpg" style="width:45%;margin-left:25%;">
+                    <div class="text">Business License</div>
+                  </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                
+                <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+        </div>
+    </div>
+    <div class="banner4">
+        <div class="heading2"><p class="">Our Operating Regions</p></div>
+        <div class="text4box">
+            <p class="text4">
+                EPC was Established in Indore in 2004, and since then we have grown our presence in multiple cities in Madhya Pradesh. The Cities that we render our Services include <b>Indore, Bhopal, Ujjain, Jabalpur, Dewas, Ratlam, Orchha.</b>
+            </p>
+            <img src="Assets\Madhya_Pradesh.png" class="image">
+            <img src="Assets\epc_pin.png" class="indore" style="width:4vw;">
+            <img src="Assets\epc_pin.png" class="bhopal" style="width:2.5vw;">
+            <img src="Assets\epc_pin.png" class="ujjain" style="width:2.5vw;">
+            <img src="Assets\epc_pin.png" class="dewas" style="width:2vw;">
+            <img src="Assets\epc_pin.png" class="jabalpur" style="width:2vw;">
+            <img src="Assets\epc_pin.png" class="ratlam" style="width:1.5vw;">
+
+        </div>
+    </div>
+    <div class="banner5">
+        <div class="heading2"><p class="">Director's Message</p></div>
+            <div class="boxx">
+                <img src="Assets\Director1.jpg" class="profile" style="width:18vw;height:18vw;">
+                <div class="textboxx">
+                    <img src="Assets\Qoutes_Start.png" class="qoutesStart" style="width:1vw;">
+                    <p class="texxxt"> At EPC, we are committed in providing you with the highest quality pest control services to ensure the safety and comfort of your home or business. Our mission is to protect your property and health by effectively managing and eliminating pests through innovative and environmentally responsible solutions. We understand that pest issues can be distressing and disruptive, which is why our team of experienced professionals is dedicated to deliver prompt, reliable, and efficient service. Our approach is rooted in integrated pest management, which combines thorough inspections, targeted treatments, and preventive measures to achieve long-lasting results. We prioritize safety and sustainability in all our practices, using products and methods that are effective yet environmentally friendly.</p>
+                    <img src="Assets\Qoutes_End.png" class="qouteEnd" style="width: 1vw;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <img class='l4' src="Assets\Group4.ico" style="width:7vw;height:7vw">
+        <div class="ftr2">
+            <p class="ft1">Elishba Pest Control<br></p>
+        </div>
+        <div class="ftr3">
+            <p class="ft2">A Trusted Name in the Industry<br></p>
+        </div>
+        <div class="ftr4">
+            <button class="button"><a class="button-a" href="#">Get in Touch</a></button>
+        </div>
+
+            <p class="fp1">Call</p>
+            <p class="fp2">Meet<br></p>
+            <p class="fp3">Write</p>
+
+            <p class="fp4">+91-9893071016<br>+91-7566666008</p>
+            <p class="fp5">UG-1/2, Khushbu Avenue,<br> Near Bapat Square, Indore<br></p>
+            <p class="fp6">elishbapc1968@gmail.com</p>
+
+    </div>
+    
+</body>

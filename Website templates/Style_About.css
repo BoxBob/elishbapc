@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: #05151b;
+    height: 338.98vw;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0rem;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    Left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 2.82vw 8vw;
+    z-index: 100000;
+}
+header.sticky {
+    padding: 0.28vw 7vw;
+    background: #05151b;
+    opacity: 99%;
+    z-index: 10000000; 
+}
+header .logo
+{
+    position: absolute;
+    padding-left: 4vw;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.14vw;
+    text-transform: uppercase;
+    letter-spacing: 0.134vw;
+    transition: 0.6s;
+    z-index: 10000000000000;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
+    margin: 0 1.033vw; /* 0.985em divided by 0.955 */
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.134vw;
+    font-weight: 500;
+    transition: 0.6s;
+    z-index: 100000000000;
+    font-size: 1.047vw;
+}
+
+header.sticky .logo
+{
+    color: #fff;
+}
+header.sticky ul li a
+{
+    color: #e3ae7e;
+}
+
+.banner1{
+    position: relative;
+    margin-top: 8.47vw; /* 15vh divided by 1.77 */
+}
+.ourmission{
+    position: absolute;
+    height: auto;
+    width: 65%;
+    background-color: #efebe6;
+    z-index: 10;
+}
+.subBanner{
+    top: 8.47vw; /* 15vh divided by 1.77 */
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 42.43vw; /* 75vh divided by 1.77 */
+    background-image: url('Anjushree_GD_Lobby.jpg');
+    background-size: cover;
+    z-index: 100;
+}
+.text1{
+    font-size: 4.727vw; /* 4.5em divided by 0.955 */
+    position: relative;
+    left: 13vw;
+    top: 1.327vw; /* 4.5vh divided by 1.77 */
+    font-weight: 700;
+}
+.text2box{
+    padding-top: 1.78vw; /* 1.70em divided by 0.955 */
+    padding-left: 4vw;
+    position: relative;
+    width: 46vw;
+    justify-content: center;
+}
+.text2{
+    font-size: 1.26vw; /* 1.2em divided by 0.955 */
+    padding-top: 1.18vw; /* 1.13em divided by 0.955 */
+    text-align: justify;
+    padding-bottom: 2.69vw; /* 2.82em divided by 0.955 */
+}
+.imgbox{
+    height: 14.12vw; /* 25vh divided by 1.77 */
+    margin-top: -1.78vw; /* -1.70em divided by 0.955 */
+    position: relative;
+}
+.img1{
+    position: absolute;
+    margin-top: 1.78vw; /* 1.70em divided by 0.955 */
+    left: 7vw;
+    height: 5.65vw; /* 10vh divided by 1.77 */
+    width: 5.65vw; /* 10vh divided by 1.77 */
+}
+.img2{
+    position: absolute;
+    margin-top: 1.78vw; /* 1.70em divided by 0.955 */
+    left: 22vw;
+    height: 5.65vw; /* 10vh divided by 1.77 */
+    width: 5.65vw; /* 10vh divided by 1.77 */
+}
+.img3{
+    position: absolute;
+    margin-top: 1.78vw; /* 1.70em divided by 0.955 */
+    left: 37vw;
+    height: 5.65vw; /* 10vh divided by 1.77 */
+    width: 5.65vw; /* 10vh divided by 1.77 */
+}
+.imgtext1{
+    position: absolute;
+    margin-top: 8.47vw; /* 15vh divided by 1.77 */
+    left: 3.5vw;
+    font-size: 1.04vw;
+}
+.imgtext2{
+    position: absolute;
+    margin-top: 8.47vw; /* 15vh divided by 1.77 */
+    left: 18.5vw;
+    font-size: 1.04vw;
+}
+.imgtext3{
+    position: absolute;
+    margin-top: 8.47vw; /* 15vh divided by 1.77 */
+    left: 35.5vw;
+    font-size: 1.04vw;
+}
+.banner2{
+    position: absolute;
+    height: 39.57vw; /* 70vh divided by 1.77 */
+    width: 100%;
+    top: 73.43vw; /* 130vh divided by 1.77 */
+}
+.heading2{
+    font-size: 4.19vw; /* 4em divided by 0.955 */
+    position: relative;
+    left: 9vw;
+    top: 4.727vw; /* 4.5vh divided by 1.77 */
+    font-weight: 600;
+    color: #efebe6;
+}
+.text4box{
+    position: absolute;
+    padding: 5vw;
+}
+.text4{
+    font-size: 1.47vw; /* 1.4em divided by 0.955 */
+    padding-top: 2.69vw; /* 2.82em divided by 0.955 */
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    text-align: justify;
+    padding-bottom: 2.69vw; /* 2.82em divided by 0.955 */
+    color: #efebe6;
+}
+.text41{
+    position: absolute;
+    font-size: 3.14vw; /* 3em divided by 0.955 */
+    font-weight: 500;
+    color: #fff;
+}
+.banner3{
+    position: absolute;
+    height: 39.57vw; /* 70vh divided by 1.77 */
+    width: 100%;
+    top: 107.34vw; /* 190vh divided by 1.77 */
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 45.99vw;
+    position: relative;
+    top: 7vw;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1.05vw; /* 16px multiplied by 0.0657 */
+    margin-top: -1.45vw; /* -22px multiplied by 0.0657 */
+    color: white;
+    font-weight: bold;
+    font-size: 1.18vw; /* 18px multiplied by 0.0657 */
+    transition: 0.6s ease;
+    border-radius: 0 0.20vw 0.20vw 0; /* 3px multiplied by 0.0657 */
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 0.20vw 0 0 0.20vw; /* 3px multiplied by 0.0657 */
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #000;
+    font-size: 0.98vw; /* 15px multiplied by 0.0657 */
+    padding: 0.53vw 0.79vw; /* 8px and 12px multiplied by 0.0657 */
+    position: absolute;
+    bottom: 0.53vw; /* 8px multiplied by 0.0657 */
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 0.79vw; /* 12px multiplied by 0.0657 */
+    padding: 0.53vw 0.79vw; /* 8px and 12px multiplied by 0.0657 */
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 0.98vw; /* 15px multiplied by 0.0657 */
+    width: 0.98vw; /* 15px multiplied by 0.0657 */
+    margin: 0 0.13vw; /* 2px multiplied by 0.0657 */
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 19.71vw) {
+    .prev, .next,.text {font-size: 0.72vw} /* 11px multiplied by 0.0657 */
+  }
+  .banner4{
+      position: absolute;
+      height: 39.57vw; /* 70vh divided by 1.77 */
+      width: 100%;
+      top: 248.03vw; /* 440vh divided by 1.77 */
+  }
+  
+
+.banner4{
+    position: absolute;
+    top: 181.93vw; /* 320vh divided by 1.77 */
+    width: 100%;
+}
+.image{
+    position: absolute;
+    width: 80vw;
+    left: 10%;
+    margin-top: 3vw;
+}
+.indore{
+    position: absolute;
+    margin-top: 17.53vw; /* 31vh divided by 1.77 */
+    margin-left: 21vw;
+    z-index: 100;
+}
+.bhopal{
+    position: absolute;
+    margin-top: 13.61vw; /* 23vh divided by 1.77 */
+    margin-left: 39vw;
+}
+.ujjain{
+    position: absolute;
+    margin-top: 13.34vw; /* 22.5vh divided by 1.77 */
+    margin-left: 21vw;
+}
+.jabalpur{
+    position: absolute;
+    margin-top: 15.98vw; /* 27vh divided by 1.77 */
+    margin-left: 67vw;
+}
+.dewas{
+    position: absolute;
+    margin-top: 17.99vw; /* 30.5vh divided by 1.77 */
+    margin-left: 24.25vw;
+}
+.ratlam{
+    position: absolute;
+    margin-top: 13.93vw; /* 23.5vh divided by 1.77 */
+    margin-left: 13.25vw;
+}
+.banner5{
+    position: absolute;
+    top: 254.25vw; /* 450vh divided by 1.77 */
+    width: 100%;
+}
+.boxx{
+    position: absolute;
+    margin-top: 8.47vw; /* 15vh divided by 1.77 */
+    height: 19.14vw; /* 40vh divided by 1.77 */
+    width: 70%;
+    left: 15%;
+    background-color: #efebe6;
+    border-top-left-radius: 11.299vw; /* 20vh divided by 1.77 */
+    border-bottom-left-radius: 11.299vw; /* 20vh divided by 1.77 */
+}
+.profile{
+    top: 0.564vw; /* 1vh divided by 1.77 */
+    left: 0.564vw; /* 1vh divided by 1.77 */
+    position: absolute;
+    border-radius: 11.299vw; /* 20vh divided by 1.77 */
+}
+.textboxx{
+    position: absolute;
+    width: 70%;
+    right: 2vw;
+    height: 21.43vw; /* 38vh divided by 1.77 */
+    margin-top: -0.564vw; /* 1vh divided by 1.77 */
+}
+.qoutesStart{
+    position: absolute;
+    left: -2vw;
+    top: 2.45vw; /* 4vh divided by 1.77 */
+}
+.texxxt{
+    padding-top: 2.37vw; /* 4vh divided by 1.77 */
+    text-align: justify;
+    left: -2vw;
+    font-size: 1.05vw;
+}
+.qouteEnd{
+    position: absolute;
+    left: 45.5vw;
+    top: 15.26vw; /* 30vh divided by 1.77 */
+}
+.footer
+{
+  top: 28.24vw; /* 50vh divided by 1.77 */
+  position: absolute;
+  width: 100%;
+  background-color:#efebe6;
+  height: 48.08vw; /* 85vh divided by 1.77 */
+  margin-top: 276.91vw; /* 490vh divided by 1.77 */
+}
+.l4
+{
+  position: relative;
+  left: 46vw;
+  top: 3.24vw; /* 5.5vh divided by 1.77 */
+}
+.ftr2
+{
+  position: absolute;
+  width: 100%;
+  color: #000;
+  height: 11.85vw; /* 20vh divided by 1.77 */
+  margin-top: 5.26vw; /* 5vh divided by 1.77 */
+  padding-left: 31vw;
+  padding-right: 30vw;
+}
+.ft1
+{
+  text-align: center;
+  width: 100%;
+  font-size: 2.1vw; /* 2em divided by 0.955 */
+  font-weight: 500;   
+}
+.ftr3
+{
+  position: absolute;
+  width: 100%;
+  color: #000;
+  height: 11.85vw; /* 20vh divided by 1.77 */
+  margin-top: 8.98vw; /* 12vh divided by 1.77 */
+  padding-left: 31vw;
+  padding-right: 30vw;
+}
+.ft2
+{
+  text-align: center;
+  width: 100%;
+  font-size: 1.57vw; /* 1.5em divided by 0.955 */
+}
+.ftr4
+{
+  position: absolute;
+  width: 100%;
+  height: 22.64vw; /* 40vh divided by 1.77 */
+  top: 20.98vw; /* 35.5vh divided by 1.77 */
+}
+.button
+{
+  font-size: 1.31vw; /* 1.25em divided by 0.955 */
+  margin-left: 43vw;
+  padding: auto;
+  background-color: #05151b;
+  position: absolute;
+  width: 14%;
+  color: #fff;
+  height: 4.72vw; /* 8vh divided by 1.77 */
+  cursor: pointer;
+  border-radius: 35px;
+  transition: all 0.5s;
+}
+.button-a
+{
+  text-decoration: none;
+  color: #fff;
+}
+.fp1
+{
+  position: absolute;
+  padding-left: 20.5vw;
+  font-family: "playfair display";
+  font-size: 3.14vw; /* 3em divided by 0.955 */
+  top: 31.15vw; /* 55.25vh divided by 1.77 */
+}
+.fp2
+{
+    position: absolute;
+    padding-left: 46.5vw;
+    font-family: "playfair display";
+    font-size: 3.14vw; /* 3em divided by 0.955 */
+    top: 31.15vw; /* 55.25vh divided by 1.77 */
+}
+.fp3
+{
+    position: absolute;
+    padding-left: 73.75vw;
+    font-family: "playfair display";
+    font-size: 3.14vw; /* 3em divided by 0.955 */
+    top: 31.22vw; /* 55.75vh divided by 1.77 */
+}
+.fp4
+{
+  position: absolute;
+  top: 38.64vw; /* 67.5vh divided by 1.77 */
+  padding-left: 17.5vw;
+  font-size: 1.57vw; /* 1.5em divided by 0.955 */
+}
+.fp5
+{
+    position: absolute;
+    top: 36.85vw; /* 65vh divided by 1.77 */
+    padding-left: 39.75vw;
+    font-size: 1.57vw; /* 1.5em divided by 0.955 */
+    text-align: center;
+}
+.fp6
+{
+    position: absolute;
+    top: 38.64vw; /* 67.5vh divided by 1.77 */
+    padding-left: 67.5vw;
+    font-size: 1.57vw; /* 1.5em divided by 0.955 */
+}

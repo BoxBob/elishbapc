@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style_Contact.css"> 
+    <meta name="viewport" content="user-scalable=0">
+    <link rel="icon" type="x-icon" href="Assets\Group4.ico" sizes="32x32">
+    <title>Elishba Pest Control</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header>
+        <img class src="Assets\Group4.ico" style="width:3.28vw;height:3.28vw;" >
+        <a href='#' class="logo">EPC</a>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="test2.html">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+            
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+
+        function updatePlaceholderName() {
+            const nameInput = document.getElementById("name");
+            const placeholderElement = document.querySelector(".content__container__list__item.placeholder");
+
+            nameInput.addEventListener("input", function() {
+                placeholderElement.textContent = nameInput.value || "";
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", updatePlaceholderName);
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the name input field and the list container
+            const nameInput = document.getElementById("name");
+            const listContainer = document.querySelector(".content__container__list");
+
+            // Add an event listener for input changes
+            nameInput.addEventListener("blur", function () {
+                const name = nameInput.value.trim();
+
+                // Check if a name is entered
+                if (name) {
+                    listContainer.classList.add("name-entered"); // Add the class for the transition
+                } else {
+                    listContainer.classList.remove("name-entered"); // Remove the class if the input is cleared
+                }
+            });
+        })
+    </script>        
+
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<div class="hello-container">
+<div class="content">
+  <div class="content__container">
+    <p class="content__container__text">
+      Hello
+    </p>
+    
+    <ul class="content__container__list">
+      <li class="content__container__list__item">!</li>
+      <li class="content__container__list__item placeholder"></li>
+      <li class="content__container__list__item">_______________</li>
+    </ul>
+    
+  </div>
+</div>
+</div>
+    <div class="formContainer"><p class="text1">Connect With Us</p>
+        <form class="contactus" action="https://formsubmit.co/johnisahoe420@gmail.com" method="POST">
+            <div class="item name_email">
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                <input type="text" name="mobile" placeholder="Mobile No." required>
+            </div>
+            <div class="item">
+                <input type="text" name="address" placeholder="Address" required>
+            </div>
+            <div class="item">
+                <textarea name="pest_problem" placeholder="What kind of pest are you facing trouble from?" required></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="New Form Submission!">
+            <input type="hidden" name="_captcha" value="true">
+            <div class="btnDiv"><button type="submit" class="btn">Send</button></div>
+        </form>
+    </div>
+
+
+<div class="footer">
+  <img class='l4' src="Assets\Group4.ico" style="width:7vw;height:7vw" alt="EPC logo">
+  <div class="ftr2">
+      <p class="ft1">Elishba Pest Control<br></p>
+  </div>
+  <div class="ftr3">
+      <p class="ft2">A Trusted Name in the Industry<br></p>
+  </div>
+  <div class="ftr4">
+      <button class="button"><a class="button-a" href="#">Get in Touch</a></button>
+  </div>
+
+      <p class="fp1">Call</p>
+      <p class="fp2">Meet<br></p>
+      <p class="fp3">Write</p>
+
+      <p class="fp4">+91-9893071016<br>+91-7566666008</p>
+      <p class="fp5">UG-1/2, Khushbu Avenue,<br> Near Bapat Square, Indore<br></p>
+      <p class="fp6">elishbapc1968@gmail.com</p>
+
+</div>
+
+</body>
+</html>
